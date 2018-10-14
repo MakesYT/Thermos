@@ -81,7 +81,7 @@ public class TVersionRetriever implements Runnable, UncaughtExceptionHandler {
         try {
             HttpUriRequest request = RequestBuilder
                     .get()
-                    .setUri("http://th.tcpr.ca/thermos/version")
+                    .setUri("https://dev.cyberarmy.co.uk/thermos/version/?version=1.11.2")
                     .addParameter("version", Thermos.getCurrentVersion()).build();
             HttpResponse response = HttpClientBuilder.create()
                     .setUserAgent("Thermos Version Retriever")
