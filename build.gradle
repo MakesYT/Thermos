@@ -41,7 +41,6 @@ task wrapper(type: Wrapper) {
 }
 
 apply plugin: 'maven'
-apply plugin: 'cauldron'
 apply plugin: 'maven-publish'
 apply plugin: 'signing'
 apply plugin: 'java'
@@ -88,7 +87,7 @@ minecraft {
     srgExtra "PK: org/bukkit/bukkit org/bukkit/bukkit/1.11.2-R0.1-SNAPSHOT"
 }
 
-group = 'Terminal-Access'
+group = 'MCImaginarium'
 
 ext.buildInfoCached = null;
 
@@ -218,7 +217,7 @@ def generateManifest(boolean legacy = false) {
             'Thermos-Channel'       : project.name,
             'Thermos-Version'       : project.version,
             'Thermos-Legacy'        : legacy,
-            'Implementation-Vendor' : 'Terminal-Access',
+            'Implementation-Vendor' : 'MCImaginarium',
             'Implementation-Title'  : project.name,
             'Implementation-Version': project.version,
             'Specification-Vendor'  : 'Bukkit Team',
