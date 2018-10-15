@@ -5,7 +5,7 @@
 ![Thermos](thermos_icon.png)
 <!--- ![Graph](http://i.mcstats.org/Thermos/Global+Statistics@2x.borderless.png) --->
 
-[![Build Status](https://travis-ci.org/Terminal-Access/Thermos.svg?branch=master)](https://travis-ci.org/Terminal-Access/Thermos)
+[![Build Status](https://travis-ci.org/mcimaginarium/Thermos.svg?branch=master)](https://travis-ci.org/mcimaginarium/Thermos)
 ![Minecraft Forge v10.13.20.1.2588][forge]
 ![Minecraft v1.11.2][mc]
 ![Java JDK v1.8][java]
@@ -24,10 +24,10 @@ Advantages over KCauldron:
 
 
 ## Installation
-Click [here](http://imaginarium.github.io/Thermos/install)
+Click [here](https://mcimaginarium.github.io//Thermos/install)
 
 ## Downloads
-You can download the pre-built packages from [here](https://github.com/Terminal-Access/Thermos/releases). 
+You can download the pre-built packages from [here](https://github.com/mcimaginarium/Thermos/releases). 
 
 **Thermos is still in beta and you may encounter issues in using it with your server. You have been warned!**
 
@@ -46,7 +46,7 @@ N\A
 
 ## Contributing
 
-Please read the [guide](https://github.com/Terminal-Access/Thermos/blob/master/CONTRIBUTING.md) on how to contribute - Thermos always needs improvements :smile: 
+Please read the [guide](https://github.com/mcimaginarium/Thermos/blob/master/CONTRIBUTING.md) on how to contribute - Thermos always needs improvements :smile: 
 
 ## Build Requirements
 * Java 8u101 JDK or higher
@@ -55,7 +55,7 @@ Please read the [guide](https://github.com/Terminal-Access/Thermos/blob/master/C
 ## Building Terminal-Access/Thermos
 * Checkout project
   * You can use IDE or clone from console:
-  `git clone https://github.com/Terminal-Access/Thermos.git`
+  `git clone https://github.com/mcimaginarium/Thermos.git`
 * Setup
   * Auto: `setup.sh`
   * Manual:
